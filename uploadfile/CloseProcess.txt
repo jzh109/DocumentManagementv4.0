@@ -1,0 +1,3 @@
+netstat /aon|findstr "%PORT"
+tasklist|findstr "%PID"
+taskkill /pid PID /F
